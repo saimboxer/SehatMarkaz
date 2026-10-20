@@ -2,7 +2,7 @@
 
 -- SehatMarkaz PostgreSQL infrastructure setup (psql script, not plain SQL).
 -- Run as an existing PostgreSQL administrator:
---   psql -U postgres -d postgres -f setup_postgres_updated.sql
+--   psql -U postgres -d postgres -f setup_postgres.sql
 -- Database: sehatmarkaz | Schema: sm | Database owner: superuser | Schema owner: dev
 -- Does not create tables, change existing passwords, or modify other projects.
 -- If a new login role is created, set its password securely outside this script.
